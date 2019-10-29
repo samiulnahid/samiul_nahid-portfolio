@@ -1,0 +1,417 @@
+.navbar {
+
+    box-shadow: 2px 2px 5px #3292a6;
+    background: #fff;
+    opacity: 0.9;
+}
+
+nav ul li a {
+    font-weight: 600;
+    border-bottom: 2px solid white;
+    font-size: 15px;
+    transition: .3s;
+
+
+}
+
+nav ul li:hover a {
+    border-bottom: 2px solid #000;
+    color: #000 ;
+    
+}
+
+nav ul .li-padding {
+    padding: .5rem;
+}
+
+.navbar .nav-item:last-child {
+    padding-right: 0;
+}
+
+#showcase {
+    background: #fcfdff;
+}
+
+#showcase h3 {
+
+    font-weight: 300;
+
+}
+
+#showcase .designer {
+
+    margin-top: -9px;
+    font-weight: 400;
+}
+
+#showcase .showcase-content {
+    margin-top: 200px;
+
+}
+
+#showcase .showcase-content h2 {
+    font-size: 32px;
+    margin-top: -5px;
+}
+
+#showcase .md-responsive {
+    margin-left: -42px;
+}
+
+#showcase ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #17a2b8;
+}
+
+#showcase ul li:hover {
+    background: #17a2b8;
+}
+
+#showcase ul li:hover a {
+    color: #fff;
+}
+
+#services {
+    box-shadow: 2px 2px 5px #007BFF;
+}
+
+#services i {
+
+    border: 2px solid #007BFF;
+    font-size: 40px;
+}
+
+#services p {
+    font-family: inherit;
+}
+
+#services .services-shadow {
+
+}
+
+
+#services .services-shadow:hover {
+    background: #b1b3b1;
+    cursor: pointer;
+    border-radius: 5px;
+        
+
+}
+
+
+#about {
+    background: #fcfafa;
+}
+
+#about ul {
+
+    list-style: none;
+
+}
+
+#about .details {
+    font-family: inherit;
+    font-size: 17px;
+}
+
+#about .my-details {
+
+    padding: 5px;
+    padding-left: 15px;
+    margin-left: -20px;
+}
+
+/*
+#portfolio {
+    background-image: url(../img/keyboard2.jpg);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+#portfolio .portfolio-overlay {
+    background: rgba(12, 13, 13, 0.7);
+    min-height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
+#portfolio {
+    background: #ffffff;
+}
+
+
+#portfolio .box {
+    position: relative;
+}
+
+#portfolio .image-box {
+
+    position: relative;
+    overflow: hidden;
+}
+
+#portfolio .image-box img {
+    transition: 1s;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#portfolio .box:hover .image-box img {
+    transform: scale(1.2);
+
+}
+
+#portfolio .box .details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, .8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+#portfolio .box:hover .details {
+    transform: scaleY(1);
+}
+
+#portfolio .box .details .contant {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+#portfolio .box .details .contant h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #ff0;
+    font-family: inherit;
+}
+
+#portfolio .box .details .contant p {
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+#portfolio .project .project-details a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#portfolio .project-title {
+    margin-top: -41px;
+}
+
+#portfolio .project .project-details {
+    box-shadow: 2px 2px 5px #b1b3b1;
+
+}
+
+#resume .btn-resume {
+    box-shadow: 2px 2px 5px #EFE9D7;
+}
+
+#contact {
+    background: #efe9d7;
+    color: #736c5e;
+}
+
+#contact form .form-control {
+    box-shadow: none;
+    border: none;
+}
+
+footer h2 {
+    color: blue;
+    font-family: inherit;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+footer h2 span {
+    color: #211da3;
+    font-weight: 100;
+    font-style: italic;
+}
+
+footer ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #17a2b8;
+}
+
+footer ul li:hover {
+    background: #17a2b8;
+}
+
+footer ul li:hover a {
+    color: #fff;
+}
+
+footer div .md-responsive p {
+    margin-top: 20px;
+
+}
+
+@media(min-width:1200px) {
+    #showcase img {
+        height: 500px;
+        width: 355px;
+        margin-top:70px; 
+        margin-left: 20px;
+    }
+
+    #showcase .showcase-content {
+        display: inline-block;
+        margin-left: 170px;
+        margin-top: 197px;
+    }
+}
+
+@media(max-width:1199px) {
+
+
+
+    #showcase img {
+        height: 470px;
+        width: 350px;
+        margin-top: 40px;
+    }
+
+    #showcase .showcase-content {
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 197px;
+    }
+
+    footer {
+
+        padding-top: 25px;
+    }
+
+
+}
+
+@media(max-width:991px) {
+    nav ul .li-padding {
+        padding: 0px;
+    }
+
+    #navbarNab {
+        margin-top: -20px;
+    }
+
+    #showcase .showcase-content{
+        margin-bottom: 80px;
+    }
+    #showcase img {
+        margin-top: 70px;
+        height: 450px;
+        width: 300px;
+    }
+
+    #showcase .showcase-content {
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: 197px;
+
+    }
+
+    #showcase .showcase-content h2 {
+        font-size: 28px;
+    }
+
+    #showcase .showcase-content h3 {
+        font-size: 24px;
+    }
+
+    #showcase .showcase-content h5 {
+        font-size: 19px;
+    }
+
+    #about img {
+        border-radius: 0px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        
+    }
+
+    #about .my-details {
+
+        margin-left: 0px;
+    }
+
+
+    footer h2 {
+        font-size: 40px;
+    }
+
+    footer div .md-responsive {
+        text-align: center;
+    }
+
+    footer div .md-responsive p {
+        margin-top: -15px;
+    }
+
+    footer div .md-responsive ul {
+        margin-left: -40px;
+        margin-top: -5px;
+    }
+}
+
+@media(max-width:768px) {
+
+    #showcase .showcase-content {
+        padding-bottom: 120px;
+        margin-top: 170px;
+        display: block;
+        text-align: center;
+        margin-left: 22%
+    }
+
+    #resume h1 {
+        font-size: 35px
+    }
+
+    #resume p {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+
+    #resume a {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+
+}
+
+@media(max-width:575px) {
+    #resume h1 {
+        font-size: 30px
+    }
+
+    #resume p {
+        font-size: 17px;
+        margin-top: -10px;
+    }
+
+    #resume a {
+        font-size: 15px;
+        margin-top: -10px;
+    }
+}
